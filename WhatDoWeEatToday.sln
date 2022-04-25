@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDoWeEatToday.WebApi", "WhatDoWeEatToday.WebApi\WhatDoWeEatToday.WebApi.csproj", "{5AC20711-0CB0-46D1-9AED-F04FB99283A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatDoWeEatToday.WebApi", "WhatDoWeEatToday.WebApi\WhatDoWeEatToday.WebApi.csproj", "{5AC20711-0CB0-46D1-9AED-F04FB99283A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. WebApi", "1. WebApi", "{0C033B3A-86A7-45DD-ADE7-CD86479494C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. BusinessLogic", "2. BusinessLogic", "{8CD59011-9007-424C-8A75-A05DC8D7340F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDoWeEatToday.BusinessLogic", "WhatDoWeEatToday.BusinessLogic\WhatDoWeEatToday.BusinessLogic.csproj", "{315B4F67-595B-4B6B-BB9E-2F43F24A48CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatDoWeEatToday.BusinessLogic", "WhatDoWeEatToday.BusinessLogic\WhatDoWeEatToday.BusinessLogic.csproj", "{315B4F67-595B-4B6B-BB9E-2F43F24A48CD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{1E2F2170-0436-4070-A313-F0EC575FF772}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Domain", "4. Domain", "{1E2F2170-0436-4070-A313-F0EC575FF772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDoWeEatToday.Domain", "WhatDoWeEatToday.Domain\WhatDoWeEatToday.Domain.csproj", "{D1AE922F-4B10-48AC-B2BE-5B6857F70127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatDoWeEatToday.Domain", "WhatDoWeEatToday.Domain\WhatDoWeEatToday.Domain.csproj", "{D1AE922F-4B10-48AC-B2BE-5B6857F70127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Repositories", "3. Repositories", "{2BD08256-D4D8-4774-9BD2-E40AA16D7495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDoWeEatToday.DataAcess", "WhatDoWeEatToday.DataAcess\WhatDoWeEatToday.DataAcess.csproj", "{C14A86F8-24B7-4260-9974-EA16CA6B6582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{D1AE922F-4B10-48AC-B2BE-5B6857F70127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AE922F-4B10-48AC-B2BE-5B6857F70127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AE922F-4B10-48AC-B2BE-5B6857F70127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14A86F8-24B7-4260-9974-EA16CA6B6582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14A86F8-24B7-4260-9974-EA16CA6B6582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14A86F8-24B7-4260-9974-EA16CA6B6582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14A86F8-24B7-4260-9974-EA16CA6B6582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{5AC20711-0CB0-46D1-9AED-F04FB99283A1} = {0C033B3A-86A7-45DD-ADE7-CD86479494C7}
 		{315B4F67-595B-4B6B-BB9E-2F43F24A48CD} = {8CD59011-9007-424C-8A75-A05DC8D7340F}
 		{D1AE922F-4B10-48AC-B2BE-5B6857F70127} = {1E2F2170-0436-4070-A313-F0EC575FF772}
+		{C14A86F8-24B7-4260-9974-EA16CA6B6582} = {2BD08256-D4D8-4774-9BD2-E40AA16D7495}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F05C1AD-BBCD-4C81-8A48-701ABF978732}
