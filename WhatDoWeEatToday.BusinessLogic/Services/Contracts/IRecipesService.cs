@@ -1,9 +1,9 @@
-﻿using WhatDoWeEatToday.Domain.Entities;
+﻿using WhatDoWeEatToday.BusinessLogic.Dtos;
 
 namespace WhatDoWeEatToday.BusinessLogic.Services.Contracts
 {
     public interface IRecipesService
     {
-        public List<Recipe> GetRecipesWithIngredient(string ingredient);
+        public List<RecipeDto> GetRecipesWithIngredient(string ingredient);
     }
 }

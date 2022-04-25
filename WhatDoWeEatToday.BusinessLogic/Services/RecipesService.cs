@@ -1,13 +1,13 @@
-﻿using WhatDoWeEatToday.BusinessLogic.Services.Contracts;
-using WhatDoWeEatToday.Domain.Entities;
+﻿using WhatDoWeEatToday.BusinessLogic.Dtos;
+using WhatDoWeEatToday.BusinessLogic.Services.Contracts;
 
 namespace WhatDoWeEatToday.BusinessLogic.Services
 {
     public class RecipesService : IRecipesService
     {
-        public List<Recipe> GetRecipesWithIngredient(string ingredient)
+        public List<RecipeDto> GetRecipesWithIngredient(string ingredient)
         {
-            return new List<Recipe>();
+            return new List<RecipeDto>();
         }
     }
 }
