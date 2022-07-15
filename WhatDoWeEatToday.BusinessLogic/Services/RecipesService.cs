@@ -17,7 +17,7 @@ namespace WhatDoWeEatToday.BusinessLogic.Services
         {
             var recipes = _recipesRepository.GetRecipesWithIngredient(ingredient);
 
-            var mappedRecipes = new RecipeDto();
+            var mappedRecipes = new List<RecipeDto>();
 
             return mappedRecipes;
         }
